@@ -1,0 +1,6 @@
+framework module move_to_background {
+  umbrella header "move_to_background-umbrella.h"
+
+  export *
+  module * { export * }
+}

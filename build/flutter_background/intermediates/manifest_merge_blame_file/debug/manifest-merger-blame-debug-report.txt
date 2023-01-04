@@ -1,0 +1,31 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.julianassmann.flutter_background" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.WAKE_LOCK" />
+9-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml:5:5-67
+9-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml:5:22-65
+10    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+10-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml:6:5-76
+10-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml:6:22-74
+11
+12    <application>
+12-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml:8:5-13:19
+13        <service android:name="de.julianassmann.flutter_background.IsolateHolderService" >
+13-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml:9:9-12:19
+13-->/Users/aliseker/Kullanıcılar/alisekerr/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_background-1.1.0/android/src/main/AndroidManifest.xml:9:18-54
+14
+15            <!--
+16            android:exported="false"
+17            android:foregroundServiceType="connectedDevice|dataSync"
+18            -->
+19        </service>
+20    </application>
+21
+22</manifest>
