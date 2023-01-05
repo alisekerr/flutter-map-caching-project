@@ -1,0 +1,7 @@
+{
+    "@@locale": "en",
+    "findLocation": "Find location",
+    "@findLocation": {
+        "description": "hint text of the Location Input Text Field"
+    }
+}
