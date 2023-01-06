@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_res/release/values/values.xml",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_res/release/values/values.xml",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/values/values.xml",
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/values/values.xml",

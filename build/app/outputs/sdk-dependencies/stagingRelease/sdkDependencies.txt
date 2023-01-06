@@ -5,10 +5,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "flutter_embedding_release"
-    version: "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+    version: "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
   }
   digests {
-    sha256: "\300BK+\353i\221l\324\357\222\254\211\205\223\231PZ\034{f.\315\360\347+\300\0233G\353d"
+    sha256: "*\325P/`\315\223#\017\222\244\326\241\3601\340\235\325^Jz\365e\005|\375A\270\200\225\t4"
   }
   repo_index {
     value: 2
@@ -445,10 +445,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "armeabi_v7a_release"
-    version: "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+    version: "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
   }
   digests {
-    sha256: "9\337/.Y\315\376?\214(\320\003v\234|K\337\202\376\a\340\354k\272\201\266O!}\2143$"
+    sha256: "\271\"\273]\360-V Lb\032\211\3448\312-\247\300T#bc\333zf{\006B1\233\354\224"
   }
   repo_index {
     value: 2
@@ -458,10 +458,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "arm64_v8a_release"
-    version: "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+    version: "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
   }
   digests {
-    sha256: "\212G\001\355\214\242N\235\265\316\240{\325=|\'\'\326\215s\335y\"\242\320Q\355\207\242\004\235_"
+    sha256: "\261O\336y\vY\247\f\260V\375w\2257\254\234.\024\024\246_\343\362\303\306#\230\257#\276\001\376"
   }
   repo_index {
     value: 2
@@ -471,10 +471,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "x86_64_release"
-    version: "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+    version: "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
   }
   digests {
-    sha256: "\021\305\302\023\357\211\330K\330z\224g\375t$v!\220\344y*\314W\344\345\227\274\316\337\265\017\262"
+    sha256: "Gowf\276\005j*\320-\207}n\003\027\017\247\257\337t=\277\271S\227\320\2216\034\a\352\347"
   }
   repo_index {
     value: 2
@@ -482,7 +482,7 @@ library {
 }
 library {
   digests {
-    sha256: "\212\233\320\236\222\351\3554\232\346\032[\004\322\362\372\001\203\316\322\343\244\f8#I\253\335\257[\320\376"
+    sha256: "}\367c\226\374P1\226\273 UL\377\334\366\017)j\207\267\246\v\"?\274\2301Q\342NDD"
   }
 }
 library_dependencies {
@@ -748,6 +748,16 @@ repositories {
 repositories {
   maven_repo {
     url: "https://jcenter.bintray.com/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
   }
 }
 repositories {

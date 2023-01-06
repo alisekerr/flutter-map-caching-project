@@ -6,220 +6,222 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml
+8-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml
+9-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-11-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:3:6-78
-11-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:3:23-75
-12+    
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:4:5-77
+12-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:4:22-74
 13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:4:6-69
-13-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:4:23-66
-14+    
-15    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
-15-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:5:6-95
-15-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:5:23-93
-16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->[:file_picker] /Users/aliseker/projeler/flutter_maps-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
-16-->[:file_picker] /Users/aliseker/projeler/flutter_maps-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
-17
-18    <queries>
-18-->[:file_picker] /Users/aliseker/projeler/flutter_maps-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
-19        <intent>
-19-->[:file_picker] /Users/aliseker/projeler/flutter_maps-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
-20            <action android:name="android.intent.action.GET_CONTENT" />
-20-->[:file_picker] /Users/aliseker/projeler/flutter_maps-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
-20-->[:file_picker] /Users/aliseker/projeler/flutter_maps-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
-21
-22            <data android:mimeType="*/*" />
-22-->[:file_picker] /Users/aliseker/projeler/flutter_maps-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
-22-->[:file_picker] /Users/aliseker/projeler/flutter_maps-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
-23        </intent>
-24    </queries>
-25
-26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-26-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
-26-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
-27    <uses-permission android:name="android.permission.VIBRATE" />
-27-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
-27-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
-28    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-28-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
-28-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
-29    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-29-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
-29-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
-30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-30-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
-30-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
-31
-32    <permission
-32-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-33        android:name="com.example.verygoodcore.flutter_maps.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-33-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-34        android:protectionLevel="signature" />
-34-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-35
-36    <uses-permission android:name="com.example.verygoodcore.flutter_maps.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-36-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-36-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-37
-38    <application
-39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-39-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-40        android:extractNativeLibs="false"
-41        android:icon="@mipmap/ic_launcher"
-41-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:8:9-43
-42        android:label="[DEV] Flutter Maps" >
-42-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:7:9-35
-43        <activity
-43-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:9:9-29:20
-44            android:name="com.example.verygoodcore.flutter_maps.MainActivity"
-44-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:10:13-41
-45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-45-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:14:13-163
-46            android:exported="true"
-46-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:11:13-36
-47            android:hardwareAccelerated="true"
-47-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:15:13-47
-48            android:launchMode="singleTop"
-48-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:12:13-43
-49            android:theme="@style/LaunchTheme"
-49-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:13:13-47
-50            android:windowSoftInputMode="adjustResize" >
-50-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:16:13-55
-51
-52            <!--
-53                 Specifies an Android theme to apply to this Activity as soon as
-54                 the Android process has started. This theme is visible to the user
-55                 while the Flutter UI initializes. After that, this theme continues
-56                 to determine the Window background behind the Flutter UI.
-57            -->
-58            <meta-data
-58-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:21:13-24:17
-59                android:name="io.flutter.embedding.android.NormalTheme"
-59-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:22:15-70
-60                android:resource="@style/NormalTheme" />
-60-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:23:15-52
-61
-62            <intent-filter>
-62-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:25:13-28:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:26:17-68
-63-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:26:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:27:17-76
-65-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:27:27-74
-66            </intent-filter>
-67        </activity>
-68        <!--
-69             Don't delete the meta-data below.
-70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-71        -->
-72        <meta-data
-72-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:32:9-34:33
-73            android:name="flutterEmbedding"
-73-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:33:13-44
-74            android:value="2" />
-74-->/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/AndroidManifest.xml:34:13-30
-75
-76        <service android:name="de.julianassmann.flutter_background.IsolateHolderService" >
-76-->[:flutter_background] /Users/aliseker/projeler/flutter_maps-main/build/flutter_background/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-19:19
-76-->[:flutter_background] /Users/aliseker/projeler/flutter_maps-main/build/flutter_background/intermediates/merged_manifest/release/AndroidManifest.xml:13:18-89
-77
-78            <!--
-79            android:exported="false"
-80            android:foregroundServiceType="connectedDevice|dataSync"
-81            -->
-82        </service>
-83        <!--
-84           Declares a provider which allows us to store files to share in
-85           '.../caches/share_plus' and grant the receiving action access
-86        -->
-87        <provider
-87-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:20
-88            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
-88-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-77
-89            android:authorities="com.example.verygoodcore.flutter_maps.dev.flutter.share_provider"
-89-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-74
-90            android:exported="false"
-90-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
-91            android:grantUriPermissions="true" >
-91-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-47
-92            <meta-data
-92-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:68
-93                android:name="android.support.FILE_PROVIDER_PATHS"
-93-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-67
-94                android:resource="@xml/flutter_share_file_paths" />
-94-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-65
-95        </provider>
-96        <!--
-97           This manifest declared broadcast receiver allows us to use an explicit
-98           Intent when creating a PendingItent to be informed of the user's choice
-99        -->
-100        <receiver
-100-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-34:20
-101            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
-101-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-82
-102            android:exported="true" >
-102-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
-103            <intent-filter>
-103-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33:29
-104                <action android:name="EXTRA_CHOSEN_COMPONENT" />
-104-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-65
-104-->[:share_plus] /Users/aliseker/projeler/flutter_maps-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-62
-105            </intent-filter>
-106        </receiver>
-107        <receiver
-107-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
-108            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
-108-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
-109            android:exported="false" />
-109-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
-110        <receiver
-110-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
-111            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-111-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
-112            android:exported="false" />
-112-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
-113        <receiver
-113-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
-114            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-114-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
-115            android:exported="false" >
-115-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
-116            <intent-filter>
-116-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
-117                <action android:name="android.intent.action.BOOT_COMPLETED" />
-117-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
-117-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
-118                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-118-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
-118-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
-119                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-119-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
-119-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
-120                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-120-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
-120-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter_maps-main/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
-121            </intent-filter>
-122        </receiver>
-123
-124        <uses-library
-124-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-125            android:name="androidx.window.extensions"
-125-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-126            android:required="false" />
-126-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-127        <uses-library
-127-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-128            android:name="androidx.window.sidecar"
-128-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-129            android:required="false" />
-129-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-130    </application>
-131
-132</manifest>
+13-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:5:5-68
+13-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:5:22-65
+14    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+14-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:6:5-94
+14-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:6:22-92
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:file_picker] /Users/aliseker/projeler/flutter-map-caching-project/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+15-->[:file_picker] /Users/aliseker/projeler/flutter-map-caching-project/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+16
+17    <queries>
+17-->[:file_picker] /Users/aliseker/projeler/flutter-map-caching-project/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+18        <intent>
+18-->[:file_picker] /Users/aliseker/projeler/flutter-map-caching-project/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->[:file_picker] /Users/aliseker/projeler/flutter-map-caching-project/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+19-->[:file_picker] /Users/aliseker/projeler/flutter-map-caching-project/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+20
+21            <data android:mimeType="*/*" />
+21-->[:file_picker] /Users/aliseker/projeler/flutter-map-caching-project/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+21-->[:file_picker] /Users/aliseker/projeler/flutter-map-caching-project/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+25-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+26-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+27    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+27-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+27-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+28    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+28-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+28-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+29-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+29-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+30
+31    <permission
+31-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+32        android:name="com.example.verygoodcore.flutter_maps.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.example.verygoodcore.flutter_maps.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:7:4-36:19
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] /Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:9:9-43
+41        android:label="Flutter Maps and FMTC" >
+41-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:8:9-46
+42        <activity
+42-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:10:9-30:20
+43            android:name="com.example.verygoodcore.flutter_maps.MainActivity"
+43-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:11:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:15:13-163
+45            android:exported="true"
+45-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:12:13-36
+46            android:hardwareAccelerated="true"
+46-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:16:13-47
+47            android:launchMode="singleTop"
+47-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:13:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:14:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:17:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:22:13-25:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:23:15-70
+59                android:resource="@style/NormalTheme" />
+59-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:24:15-52
+60
+61            <intent-filter>
+61-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:26:13-29:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:27:17-68
+62-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:27:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:28:17-76
+64-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:28:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:33:9-35:33
+72            android:name="flutterEmbedding"
+72-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:34:13-44
+73            android:value="2" />
+73-->/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/AndroidManifest.xml:35:13-30
+74
+75        <service android:name="de.julianassmann.flutter_background.IsolateHolderService" >
+75-->[:flutter_background] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_background/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-19:19
+75-->[:flutter_background] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_background/intermediates/merged_manifest/release/AndroidManifest.xml:13:18-89
+76
+77            <!--
+78            android:exported="false"
+79            android:foregroundServiceType="connectedDevice|dataSync"
+80            -->
+81        </service>
+82        <!--
+83           Declares a provider which allows us to store files to share in
+84           '.../caches/share_plus' and grant the receiving action access
+85        -->
+86        <provider
+86-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:20
+87            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+87-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-77
+88            android:authorities="com.example.verygoodcore.flutter_maps.dev.flutter.share_provider"
+88-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-74
+89            android:exported="false"
+89-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+90            android:grantUriPermissions="true" >
+90-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-47
+91            <meta-data
+91-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:68
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-67
+93                android:resource="@xml/flutter_share_file_paths" />
+93-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-65
+94        </provider>
+95        <!--
+96           This manifest declared broadcast receiver allows us to use an explicit
+97           Intent when creating a PendingItent to be informed of the user's choice
+98        -->
+99        <receiver
+99-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-34:20
+100            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+100-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-82
+101            android:exported="true" >
+101-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+102            <intent-filter>
+102-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33:29
+103                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+103-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-65
+103-->[:share_plus] /Users/aliseker/projeler/flutter-map-caching-project/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-62
+104            </intent-filter>
+105        </receiver>
+106        <receiver
+106-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+107            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+107-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+108            android:exported="false" />
+108-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+109        <receiver
+109-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+110            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+110-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+111            android:exported="false" />
+111-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+112        <receiver
+112-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+113            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+113-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+114            android:exported="false" >
+114-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+115            <intent-filter>
+115-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+116                <action android:name="android.intent.action.BOOT_COMPLETED" />
+116-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+116-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+117                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+117-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+117-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+118                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+118-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+118-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+119                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+119-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+119-->[:flutter_local_notifications] /Users/aliseker/projeler/flutter-map-caching-project/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+120            </intent-filter>
+121        </receiver>
+122
+123        <uses-library
+123-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+124            android:name="androidx.window.extensions"
+124-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+125            android:required="false" />
+125-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+126        <uses-library
+126-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+127            android:name="androidx.window.sidecar"
+127-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+128            android:required="false" />
+128-->[androidx.window:window:1.0.0-beta04] /Users/aliseker/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+129    </application>
+130
+131</manifest>

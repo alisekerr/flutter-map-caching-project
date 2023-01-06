@@ -1,23 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/incremental/mergeStagingReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/incremental/mergeStagingReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/staging/res/values/ic_launcher_background.xml",
+                    "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,816",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,980"
                     },
                     "to": {
-                        "startLines": "13",
-                        "startColumns": "4",
-                        "startOffsets": "611",
-                        "endColumns": "56",
-                        "endOffsets": "663"
+                        "startLines": "103,108",
+                        "startColumns": "4,4",
+                        "startOffsets": "6067,6364",
+                        "endLines": "107,110",
+                        "endColumns": "12,12",
+                        "endOffsets": "6359,6528"
                     }
                 },
                 {
@@ -38,22 +40,20 @@
                     }
                 },
                 {
-                    "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/staging/res/values/ic_launcher_background.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,816",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,980"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
                     },
                     "to": {
-                        "startLines": "103,108",
-                        "startColumns": "4,4",
-                        "startOffsets": "6067,6364",
-                        "endLines": "107,110",
-                        "endColumns": "12,12",
-                        "endOffsets": "6359,6528"
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "611",
+                        "endColumns": "56",
+                        "endOffsets": "663"
                     }
                 },
                 {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/move_to_background/intermediates/merged_res/release/values-v21/values-v21.xml",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/move_to_background/intermediates/merged_res/release/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/values-v21/values-v21.xml",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/move_to_background/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/move_to_background/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/values-v21/values-v21.xml",

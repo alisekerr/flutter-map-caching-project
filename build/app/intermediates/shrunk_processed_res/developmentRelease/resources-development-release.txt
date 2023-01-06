@@ -59,8 +59,8 @@ emailAddress
 payload
 componentName
 visibility
-kotlinx.coroutines.default.parallelism
 setAlpha
+kotlinx.coroutines.default.parallelism
 extensionCallback
 LONG_PRESS
 HAS_CHECKED_STATE
@@ -77,6 +77,7 @@ COMPLETING_WAITING_CHILDREN
 _invoked
 setAsGroupSummary
 locale
+remove
 moveTaskToBack
 root
 NaN
@@ -195,6 +196,7 @@ Hebr
 password
 kotlinx.coroutines.scheduler.keep.ali...
 NO_TARGET
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBEb3VibGUu
 android.title
 android.notificationIconDefType
 android.permission.WAKE_LOCK
@@ -364,8 +366,8 @@ windowMetrics
 systemNavigationBarDividerColor
 CLIP_PATH
 $splitRule
-resizeColumn
 java.specification.version
+resizeColumn
 sidecarCompat
 plugins
 kotlin.Cloneable
@@ -387,6 +389,7 @@ Arab
 GMT
 android.media.metadata.ALBUM
 removeViewImmediate
+setString
 removeView
 ON_PAUSE
 route
@@ -415,8 +418,8 @@ personNamePrefix
 android.permission.BLUETOOTH
 getNotificationAppLaunchDetails
 feature.rect
-missingDelimiterValue
 android.media.metadata.DATE
+missingDelimiterValue
 NotificationManagerCompat
 listener
 soundSource
@@ -454,6 +457,7 @@ Localization.getStringResource
 flutter/navigation
 title
 tint_mode
+setStringList
 primaryActivity
 secondaryActivity
 kotlin.collections.Map
@@ -471,8 +475,8 @@ flutter/accessibility
 resize
 TextEditingDelta
 DEFAULT
-DROP_OLDEST
 android.support.allowGeneratedReplies
+DROP_OLDEST
 splitInfoList
 android.permission.WRITE_CALENDAR
 android.media.metadata.USER_RATING
@@ -505,8 +509,8 @@ android.media.metadata.AUTHOR
 groupKey
 file
 createNotificationChannelGroup
-android.summaryText
 CancellableContinuation
+android.summaryText
 allowFreeFormInput
 android.intent.extra.MIME_TYPES
 android.notificationImportance
@@ -537,6 +541,7 @@ separator
 personMiddleName
 null
 background
+StorageError
 true
 dispose
 phoneNational
@@ -570,6 +575,7 @@ callback
 RESUME_TOKEN
 android.permission.READ_EXTERNAL_STORAGE
 00
+commit
 TextInput.hide
 android.support.actionExtras
 primaryActivityStack
@@ -726,8 +732,8 @@ SystemChrome.setApplicationSwitcherDe...
 IS_HIDDEN
 startType
 groupConversation
-ledOnMs
 sequence
+ledOnMs
 keyCode
 android.permission.SCHEDULE_EXACT_ALARM
 DATA
@@ -769,6 +775,7 @@ actionIntent
 deviceId
 music
 verticalText
+FlutterSharedPreferences
 android.util.LongArray
 showWhen
 getUncaughtExceptionPreHandler
@@ -776,8 +783,8 @@ onBackPressed
 adapter
 LEFT
 LANDSCAPE_RIGHT
-givenName
 _handled
+givenName
 raw
 ActivityRule
 USAGE_UNKNOWN
@@ -822,6 +829,7 @@ flutter_assets
 bigPictureBitmapSource
 inputs
 TextInputClient.performPrivateCommand
+flutter.
 already_active
 addSuppressed
 notificationResponse
@@ -984,6 +992,7 @@ creditCardExpirationMonth
 cache
 android.permission.BLUETOOTH_SCAN
 deltaText
+setInt
 allowedExtensions
 rootIntent
 WakelockTimeout
@@ -996,8 +1005,8 @@ POSTURE_FLAT
 showBadge
 kotlin.collections.ListIterator
 oemFeature.bounds
-delimiters
 TextInputClient.updateEditingStateWit...
+delimiters
 objectFieldOffset
 PROTECTED
 timestamp
@@ -1099,8 +1108,8 @@ windowBackend
 kotlinx.coroutines.scheduler.core.poo...
 kotlinx.coroutines.scheduler.max.pool...
 android.permission.ACCESS_BACKGROUND_...
-android.messages
 double
+android.messages
 newPassword
 dispatcher_handle
 audioAttributesUsage
@@ -1146,6 +1155,7 @@ kotlinx.coroutines.fast.service.loader
 DayOfMonthAndTime
 kotlin.Any
 Brightness.dark
+setDouble
 notification
 selectionBase
 SettingsChannel
@@ -1165,8 +1175,8 @@ important
 _consensus
 SCROLL_UP
 defaultIcon
-kotlin.collections.Iterator
 CLOSED_EMPTY
+kotlin.collections.Iterator
 job
 TextInputClient.requestExistingInputS...
 SET_TEXT
@@ -1197,12 +1207,13 @@ systemStatusBarContrastEnforced
 getSuppressed
 .DYNAMIC_RECEIVER_NOT_EXPORTED_PERMIS...
 DartMessenger
+setBool
 HIGH_CONTRAST
 android.intent.action.QUICKBOOT_POWERON
 BundleCompatBaseImpl
 MOVE_CURSOR_BACKWARD_BY_WORD
-kotlinx.coroutines.scheduler.resoluti...
 kotlin.Unit
+kotlinx.coroutines.scheduler.resoluti...
 getType
 birthdayDay
 kotlin.jvm.internal.StringCompanionOb...
@@ -1229,6 +1240,7 @@ FRAMEWORK_CLIENT
 android.intent.action.PICK
 REL
 activityComponent.packageName
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu
 USAGE_ASSISTANCE_NAVIGATION_GUIDANCE
 MEDIUM_IMPACT
 installDeferredComponent
@@ -1257,6 +1269,7 @@ extendedAddress
 content
 ENQUEUE_FAILED
 statusBarColor
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJb...
 DISABLE_ANIMATIONS
 DeferredComponentChannel
 false
@@ -1432,6 +1445,7 @@ TOP_OVERLAYS
 putBoolean
 ruleComponent
 Dispatchers.Default
+plugins.flutter.io/shared_preferences...
 java.util.Collection
 componentName.packageName
 DayOfWeekAndTime
@@ -1450,8 +1464,8 @@ flutter/mousecursor
 cancelNotification
 timeoutAfter
 SELECT_FOREGROUND_NOTIFICATION
-wt
 EMPTY
+wt
 text/plain
 flutter/system
 BlockedPrivateApi
@@ -1574,6 +1588,7 @@ kotlin.collections.Set
 android.intent.action.SEND
 getWindowLayoutInfo
 callback_handle
+getAll
 LONG_OR_DOUBLE
 java.util.Iterator
 TextInputClient.performAction
@@ -2194,4 +2209,4 @@ The root reachable resources are:
  style:LaunchTheme:2131361792
  style:NormalTheme:2131361793
  xml:flutter_share_file_paths:2131492864
-Resource shrinking did not work (grew from 116696 to 117168); using original instead
+Resource shrinking did not work (grew from 116716 to 117188); using original instead

@@ -4504,6 +4504,26 @@ io.flutter.plugins.pathprovider.R$style
 io.flutter.plugins.pathprovider.R$styleable
 io.flutter.plugins.pathprovider.R
 io.flutter.plugins.pathprovider.StorageDirectoryMapper
+io.flutter.plugins.sharedpreferences.BuildConfig
+io.flutter.plugins.sharedpreferences.MethodCallHandlerImpl:
+    private static final java.lang.String BIG_INTEGER_PREFIX
+    private static final java.lang.String DOUBLE_PREFIX
+    private static final java.lang.String LIST_IDENTIFIER
+    private static final java.lang.String SHARED_PREFERENCES_NAME
+io.flutter.plugins.sharedpreferences.R$attr
+io.flutter.plugins.sharedpreferences.R$color
+io.flutter.plugins.sharedpreferences.R$dimen
+io.flutter.plugins.sharedpreferences.R$drawable
+io.flutter.plugins.sharedpreferences.R$id
+io.flutter.plugins.sharedpreferences.R$integer
+io.flutter.plugins.sharedpreferences.R$layout
+io.flutter.plugins.sharedpreferences.R$string
+io.flutter.plugins.sharedpreferences.R$style
+io.flutter.plugins.sharedpreferences.R$styleable
+io.flutter.plugins.sharedpreferences.R
+io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin:
+    private static final java.lang.String CHANNEL_NAME
+    public static void registerWith(io.flutter.plugin.common.PluginRegistry$Registrar)
 io.flutter.util.HandlerCompat:
     public void <init>()
 io.flutter.util.PathUtils:

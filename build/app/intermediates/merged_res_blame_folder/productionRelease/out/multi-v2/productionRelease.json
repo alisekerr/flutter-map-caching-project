@@ -1,500 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-v21_values-v21.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "8,11,15,19",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "610,778,1067,1363",
-                        "endLines": "10,13,17,21",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "773,936,1230,1525"
-                    }
-                },
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,14,18,22,25",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,941,1235,1530,1702",
-                        "endLines": "2,3,4,5,6,7,14,18,24,29",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,1062,1358,1697,2049"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-lo_values-lo.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-lo/values-lo.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-uz_values-uz.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-uz/values-uz.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-th_values-th.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-th/values-th.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-or_values-or.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-or/values-or.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-as_values-as.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-as/values-as.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-fi_values-fi.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fi/values-fi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-fr_values-fr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fr/values-fr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-nb_values-nb.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-nb/values-nb.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-sl_values-sl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sl/values-sl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-hy_values-hy.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-hy/values-hy.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-lv_values-lv.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-lv/values-lv.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-in_values-in.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-in/values-in.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-pt-rBR_values-pt-rBR.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pt-rBR/values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-hu_values-hu.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-hu/values-hu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-is_values-is.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-is/values-is.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-zh-rCN_values-zh-rCN.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-zh-rCN/values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-mk_values-mk.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-mk/values-mk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-bs_values-bs.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-bs/values-bs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-az_values-az.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-az/values-az.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-pt_values-pt.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pt/values-pt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ja_values-ja.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-gu_values-gu.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-gu/values-gu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-fr-rCA_values-fr-rCA.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fr-rCA/values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-sq_values-sq.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sq/values-sq.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-sw_values-sw.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sw/values-sw.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-hr_values-hr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-hr/values-hr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-uk_values-uk.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-uk/values-uk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-vi_values-vi.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-vi/values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-hi_values-hi.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-hi/values-hi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-kk_values-kk.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-kk_values-kk.arsc.flat",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-kk/values-kk.xml",
@@ -509,286 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ne_values-ne.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ne/values-ne.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-pl_values-pl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pl/values-pl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-zu_values-zu.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-zu/values-zu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ta_values-ta.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ta/values-ta.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ro_values-ro.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ro/values-ro.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-iw_values-iw.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-iw/values-iw.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-night-v8_values-night-v8.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/res/values-night/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "172,815",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "464,979"
-                    },
-                    "to": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,352",
-                        "endLines": "6,9",
-                        "endColumns": "12,12",
-                        "endOffsets": "347,516"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-kn_values-kn.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-kn/values-kn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-nl_values-nl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-nl/values-nl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-be_values-be.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-be/values-be.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-et_values-et.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-et/values-et.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-fa_values-fa.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fa/values-fa.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ms_values-ms.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ms/values-ms.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ur_values-ur.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ur/values-ur.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-zh-rHK_values-zh-rHK.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-zh-rHK/values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-tr_values-tr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-tr/values-tr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-es_values-es.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-es/values-es.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ar_values-ar.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ar/values-ar.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-es-rUS_values-es-rUS.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-es-rUS_values-es-rUS.arsc.flat",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-es-rUS/values-es-rUS.xml",
@@ -803,10 +31,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-bg_values-bg.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-fa_values-fa.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-bg/values-bg.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fa/values-fa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -818,10 +46,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-si_values-si.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-pa_values-pa.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-si/values-si.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pa/values-pa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -833,10 +61,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-mn_values-mn.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-my_values-my.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-mn/values-mn.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -848,10 +76,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-da_values-da.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-el_values-el.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-da/values-da.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-el/values-el.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -863,10 +91,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ml_values-ml.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-vi_values-vi.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ml/values-ml.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-vi/values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -878,10 +106,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ky_values-ky.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-lt_values-lt.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ky/values-ky.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-lt/values-lt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -893,23 +121,55 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values_values.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ur_values-ur.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/res/values/ic_launcher_background.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ur/values-ur.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,816",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,980"
                     },
                     "to": {
-                        "startLines": "13",
-                        "startColumns": "4",
-                        "startOffsets": "611",
-                        "endColumns": "56",
-                        "endOffsets": "663"
+                        "startLines": "103,108",
+                        "startColumns": "4,4",
+                        "startOffsets": "6067,6364",
+                        "endLines": "107,110",
+                        "endColumns": "12,12",
+                        "endOffsets": "6359,6528"
                     }
                 },
                 {
@@ -930,22 +190,20 @@
                     }
                 },
                 {
-                    "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/res/values/ic_launcher_background.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,816",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,980"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
                     },
                     "to": {
-                        "startLines": "103,108",
-                        "startColumns": "4,4",
-                        "startOffsets": "6067,6364",
-                        "endLines": "107,110",
-                        "endColumns": "12,12",
-                        "endOffsets": "6359,6528"
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "611",
+                        "endColumns": "56",
+                        "endOffsets": "663"
                     }
                 },
                 {
@@ -1006,10 +264,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-el_values-el.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ro_values-ro.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-el/values-el.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1021,97 +279,7 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-sr_values-sr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sr/values-sr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-de_values-de.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-de/values-de.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-sv_values-sv.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sv/values-sv.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-en-rAU_values-en-rAU.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-bn_values-bn.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-bn/values-bn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-it_values-it.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-it/values-it.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-en-rCA_values-en-rCA.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-en-rCA_values-en-rCA.arsc.flat",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rCA/values-en-rCA.xml",
@@ -1126,10 +294,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-pa_values-pa.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-en-rAU_values-en-rAU.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pa/values-pa.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1141,10 +309,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-nl_values-nl.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1156,172 +324,7 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-cs_values-cs.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-cs/values-cs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-v16_values-v16.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-sk_values-sk.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sk/values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ca_values-ca.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ca/values-ca.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-en-rIN_values-en-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rIN/values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-en-rXC_values-en-rXC.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rXC/values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "203",
-                        "endOffsets": "254"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-en-rGB_values-en-rGB.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rGB/values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-mr_values-mr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-mr/values-mr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ka_values-ka.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ka/values-ka.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-tl_values-tl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-tl/values-tl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-pt-rPT_values-pt-rPT.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pt-rPT/values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-km_values-km.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-km_values-km.arsc.flat",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-km/values-km.xml",
@@ -1336,97 +339,7 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-te_values-te.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-te/values-te.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-am_values-am.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-am/values-am.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-af_values-af.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-af/values-af.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-eu_values-eu.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-eu/values-eu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ru_values-ru.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ru/values-ru.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-v24_values-v24.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,121,182,248",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "116,177,243,310"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-gl_values-gl.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-gl_values-gl.arsc.flat",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-gl/values-gl.xml",
@@ -1441,7 +354,959 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-ko_values-ko.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-v24_values-v24.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-tr/values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ml/values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-uk_values-uk.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-uk/values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-mr/values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ne_values-ne.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-be_values-be.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-az_values-az.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-az/values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-mk_values-mk.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-mk/values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ky_values-ky.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ky/values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-bn_values-bn.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-bn/values-bn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-sq_values-sq.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-pt-rBR_values-pt-rBR.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-as_values-as.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-mn_values-mn.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-mn/values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-bg_values-bg.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-bg/values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-zu_values-zu.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-zu/values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-hy_values-hy.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-hy/values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-tl_values-tl.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-tl/values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-bs_values-bs.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-bs/values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ka_values-ka.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ka/values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-cs/values-cs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-hi/values-hi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-sw_values-sw.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-in_values-in.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-in/values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-iw_values-iw.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-iw/values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ms/values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "610,778,1067,1363",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "773,936,1230,1525"
+                    }
+                },
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,941,1235,1530,1702",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,1062,1358,1697,2049"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-et_values-et.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-et/values-et.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-sl_values-sl.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-te/values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-kn_values-kn.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-kn/values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ru/values-ru.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-night-v8_values-night-v8.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/res/values-night/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,815",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "464,979"
+                    },
+                    "to": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,352",
+                        "endLines": "6,9",
+                        "endColumns": "12,12",
+                        "endOffsets": "347,516"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-fr-rCA_values-fr-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-is_values-is.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-is/values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-en-rIN_values-en-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rIN/values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-si_values-si.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-sr_values-sr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sr/values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-v16_values-v16.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-lo_values-lo.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-lo/values-lo.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-or_values-or.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-hu/values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ca_values-ca.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ca/values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ko_values-ko.arsc.flat",
             "map": [
                 {
                     "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ko/values-ko.xml",
@@ -1456,10 +1321,10 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-my_values-my.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-af_values-af.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-my/values-my.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-af/values-af.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1471,10 +1336,145 @@
             ]
         },
         {
-            "outputFile": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/productionRelease/values-lt_values-lt.arsc.flat",
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-ar_values-ar.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-lt/values-lt.xml",
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fi/values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-eu_values-eu.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-gu_values-gu.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-gu/values-gu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-am_values-am.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-lv_values-lv.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-lv/values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-uz_values-uz.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-uz/values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-en-rXC_values-en-rXC.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rXC/values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "203",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/productionRelease/values-en-rGB_values-en-rGB.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/aliseker/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
