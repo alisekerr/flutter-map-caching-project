@@ -12,25 +12,38 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) => Row(
         children: [
           Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: Row(
               children: [
-                Text(
-                  'Stores',
-                  style: GoogleFonts.openSans(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 24,
+                IconButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  icon: const Icon(
+                    Icons.keyboard_arrow_left,
+                    size: 35,
                   ),
                 ),
-                BlocBuilder<GeneralBloc, GeneralState>(
-                  builder: (context, state) =>
-                      context.read<GeneralBloc>().state.currentStore == ''
-                          ? const Text('Caching Disabled')
-                          : Text(
-                              'Current Store: ${state.currentStore}',
-                              overflow: TextOverflow.fade,
-                              softWrap: false,
-                            ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Stores',
+                      style: GoogleFonts.openSans(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 24,
+                      ),
+                    ),
+                    BlocBuilder<GeneralBloc, GeneralState>(
+                      builder: (context, state) =>
+                          context.read<GeneralBloc>().state.currentStore == ''
+                              ? const Text('Caching Disabled')
+                              : Text(
+                                  'Current Store: ${state.currentStore}',
+                                  overflow: TextOverflow.fade,
+                                  softWrap: false,
+                                ),
+                    ),
+                  ],
                 ),
               ],
             ),

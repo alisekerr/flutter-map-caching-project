@@ -28,7 +28,7 @@ class BaseRegionSet extends MapEvent {
 class RegionTilesSet extends MapEvent {
   const RegionTilesSet(this.regionTiles);
 
-  final int regionTiles;
+  final int? regionTiles;
 }
 
 class MinZoomSet extends MapEvent {

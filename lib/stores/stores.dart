@@ -39,65 +39,58 @@ class _StoresPageState extends State<StoresPage> {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('aaaaaaaaa');
-    return BlocProvider(
-      create: (context) => GeneralBloc(),
-      child: Scaffold(
-        body: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.all(12),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Header(),
-                const SizedBox(height: 12),
-                Expanded(
-                  child: FutureBuilder<List<StoreDirectory>>(
-                    future: _stores,
-                    builder: (context, snapshot) => snapshot.hasData
-                        ? snapshot.data!.isEmpty
-                            ? const EmptyIndicator()
-                            : ListView.builder(
-                                itemCount: snapshot.data!.length,
-                                itemBuilder: (context, index) => StoreTile(
-                                  context: context,
-                                  storeName: snapshot.data![index].storeName,
-                                  key: ValueKey(
-                                    snapshot.data![index].storeName,
-                                  ),
+    return Scaffold(
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Header(),
+              const SizedBox(height: 12),
+              Expanded(
+                child: FutureBuilder<List<StoreDirectory>>(
+                  future: _stores,
+                  builder: (context, snapshot) => snapshot.hasData
+                      ? snapshot.data!.isEmpty
+                          ? const EmptyIndicator()
+                          : ListView.builder(
+                              itemCount: snapshot.data!.length,
+                              itemBuilder: (context, index) => StoreTile(
+                                context: context,
+                                storeName: snapshot.data![index].storeName,
+                                key: ValueKey(
+                                  snapshot.data![index].storeName,
                                 ),
-                              )
-                        : const LoadingIndicator(
-                            message: 'Loading Stores...',
-                          ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-        floatingActionButton: SpeedDial(
-          icon: Icons.create_new_folder,
-          activeIcon: Icons.close,
-          children: [
-            SpeedDialChild(
-              onTap: () => Navigator.of(context).push(
-                MaterialPageRoute<String>(
-                  builder: (BuildContext context) => BlocProvider(
-                    create: (context) => GeneralBloc(),
-                    child: const StoreEditorPopup(
-                      existingStoreName: null,
-                      isStoreInUse: false,
-                    ),
-                  ),
-                  fullscreenDialog: true,
+                              ),
+                            )
+                      : const LoadingIndicator(
+                          message: 'Loading Stores...',
+                        ),
                 ),
               ),
-              child: const Icon(Icons.add),
-              label: 'Create New Store',
-            ),
-          ],
+            ],
+          ),
         ),
+      ),
+      floatingActionButton: SpeedDial(
+        icon: Icons.create_new_folder,
+        activeIcon: Icons.close,
+        children: [
+          SpeedDialChild(
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<String>(
+                builder: (BuildContext context) => const StoreEditorPopup(
+                  existingStoreName: null,
+                  isStoreInUse: false,
+                ),
+                fullscreenDialog: true,
+              ),
+            ),
+            child: const Icon(Icons.add),
+            label: 'Create New Store',
+          ),
+        ],
       ),
     );
   }

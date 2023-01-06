@@ -1,62 +1,62 @@
 [
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/drawable_ic_launch_image.xml.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/res/drawable/ic_launch_image.xml"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/res/drawable-v21/launch_background.xml"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/drawable_ic_launch_image.xml.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/main/res/drawable/ic_launch_image.xml"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/drawable-v21_launch_background.xml.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/main/res/drawable-v21/launch_background.xml"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/aliseker/projeler/flutter_maps-main/build/app/intermediates/merged_res/developmentDebug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/aliseker/projeler/flutter_maps-main/android/app/src/development/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/aliseker/projeler/flutter-map-caching-project/build/app/intermediates/merged_res/developmentDebug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/aliseker/projeler/flutter-map-caching-project/android/app/src/development/res/drawable/ic_launcher_foreground.xml"
     }
 ]

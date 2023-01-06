@@ -3,8 +3,7 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_map_tile_caching/flutter_map_tile_caching.dart';
-
-import '../../vars/region_mode.dart';
+import 'package:flutter_maps/vars/region_mode.dart';
 
 part 'map_event.dart';
 part 'map_state.dart';
@@ -22,13 +21,23 @@ class MapBloc extends Bloc<MapEvent, MapState> {
             baseRegion: null,
             regionTiles: 0,
             downloadProggres: null,
+            regionMode: RegionMode.circle,
+            minZoom: 1,
+            maxZoom: 16,
           ),
         ) {
     on<StoreDirectorySet>(_onStoreDirectorySet);
+    on<RegionModeSet>(_onRegionModeSet);
+    on<BaseRegionSet>(_onBaseRegionSet);
+    on<RegionTilesSet>(_onRegionTilesSet);
+    on<MinZoomSet>(_onMinZoomSet);
+    on<MaxZoomSet>(_onMaxZoomSet);
+    on<DownloadProggresSet>(_onDownloadProggresSet);
+    on<PreventRedownloadSet>(_onPreventRedownloadSet);
+    on<SeaTileRemovalSet>(_onSeaTileRemovalSet);
+    on<DisableRecoverySet>(_onDisableRecoverySet);
     on<ShowLocation>(_onShowLocation);
   }
-
-// final StreamController<void> resetController = StreamController.broadcast();
 
   final StreamController<void> _manualPolygonRecalcTrigger =
       StreamController.broadcast();
@@ -43,6 +52,105 @@ class MapBloc extends Bloc<MapEvent, MapState> {
     emit(
       state.copyWith(
         selectedStore: event.newStore,
+      ),
+    );
+  }
+
+  void _onRegionModeSet(
+    RegionModeSet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        regionMode: event.regionMode,
+      ),
+    );
+  }
+
+  void _onBaseRegionSet(
+    BaseRegionSet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        baseRegion: event.baseRegion,
+      ),
+    );
+  }
+
+  void _onRegionTilesSet(
+    RegionTilesSet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        regionTiles: event.regionTiles,
+      ),
+    );
+  }
+
+  void _onMinZoomSet(
+    MinZoomSet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        minZoom: event.minZoom,
+      ),
+    );
+  }
+
+  void _onMaxZoomSet(
+    MaxZoomSet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        maxZoom: event.maxZoom,
+      ),
+    );
+  }
+
+  void _onDownloadProggresSet(
+    DownloadProggresSet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        downloadProggres: event.downloadProgress,
+      ),
+    );
+  }
+
+  void _onPreventRedownloadSet(
+    PreventRedownloadSet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        preventRedownload: event.preventRedownload,
+      ),
+    );
+  }
+
+  void _onSeaTileRemovalSet(
+    SeaTileRemovalSet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        seaTileRemoval: event.seaTileRemoval,
+      ),
+    );
+  }
+
+  void _onDisableRecoverySet(
+    DisableRecoverySet event,
+    Emitter<MapState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        disableRecovery: event.disableRecovery,
       ),
     );
   }

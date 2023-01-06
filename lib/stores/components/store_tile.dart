@@ -271,12 +271,6 @@ class _StoreTileState extends State<StoreTile> {
                                                   ),
                                                 );
 
-                                            context.read<GeneralBloc>().add(
-                                                  CurrentStoreSet(
-                                                    widget.storeName,
-                                                  ),
-                                                );
-
                                             context
                                                 .read<GeneralBloc>()
                                                 .resetMap();

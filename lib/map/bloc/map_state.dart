@@ -5,11 +5,11 @@ class MapState extends Equatable {
     required this.selectedStore,
     required this.latitude,
     required this.longitude,
-    this.regionMode = RegionMode.square,
+    required this.regionMode,
     required this.baseRegion,
     required this.regionTiles,
-    this.minZoom = 1,
-    this.maxZoom = 16,
+    required this.minZoom,
+    required this.maxZoom,
     required this.downloadProggres,
     this.preventRedownload = false,
     this.seaTileRemoval = true,
@@ -21,7 +21,7 @@ class MapState extends Equatable {
   final StoreDirectory? selectedStore;
   final RegionMode regionMode;
   final BaseRegion? baseRegion;
-  final int regionTiles;
+  final int? regionTiles;
   final int minZoom;
   final int maxZoom;
   final Stream<DownloadProgress>? downloadProggres;
@@ -30,20 +30,30 @@ class MapState extends Equatable {
   final bool disableRecovery;
 
   @override
-  List<Object> get props => [
+  List<Object?> get props => [
         latitude,
         longitude,
+        selectedStore,
+        regionMode,
+        baseRegion,
+        regionTiles,
+        minZoom,
+        maxZoom,
+        downloadProggres,
+        preventRedownload,
+        seaTileRemoval,
+        disableRecovery,
       ];
 
   MapState copyWith({
     double? latitude,
     double? longitude,
     StoreDirectory? selectedStore,
-    RegionMode regionMode = RegionMode.square,
+    RegionMode? regionMode,
     BaseRegion? baseRegion,
     int? regionTiles,
-    int minZoom = 1,
-    int maxZoom = 16,
+    int? minZoom,
+    int? maxZoom,
     Stream<DownloadProgress>? downloadProggres,
     bool preventRedownload = false,
     bool seaTileRemoval = true,
@@ -53,11 +63,11 @@ class MapState extends Equatable {
       latitude: latitude ?? this.latitude,
       longitude: longitude ?? this.longitude,
       selectedStore: selectedStore ?? this.selectedStore,
-      regionMode: regionMode,
+      regionMode: regionMode ?? this.regionMode,
       baseRegion: baseRegion ?? this.baseRegion,
       regionTiles: regionTiles ?? this.regionTiles,
-      minZoom: minZoom,
-      maxZoom: maxZoom,
+      minZoom: minZoom ?? this.minZoom,
+      maxZoom: maxZoom ?? this.maxZoom,
       downloadProggres: downloadProggres ?? this.downloadProggres,
       preventRedownload: preventRedownload,
       seaTileRemoval: seaTileRemoval,
