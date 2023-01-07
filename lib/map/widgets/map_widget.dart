@@ -3,10 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_tile_caching/flutter_map_tile_caching.dart';
 import 'package:flutter_maps/map_caching/bloc/general_bloc.dart';
+import 'package:flutter_maps/stores/components/loading_indicator.dart';
 import 'package:flutter_maps/theme/theme.dart';
 import 'package:latlong2/latlong.dart';
-
-import '../../stores/components/loading_indicator.dart';
 
 class MapWidget extends StatefulWidget {
   const MapWidget({
@@ -75,7 +74,8 @@ class _MapWidgetState extends State<MapWidget> {
               children: [
                 TileLayer(
                   errorImage: const NetworkImage(
-                      'https://tile.openstreetmap.org/18/0/0.png'),
+                    'https://tile.openstreetmap.org/18/0/0.png',
+                  ),
                   //retinaMode: MediaQuery.of(context).devicePixelRatio > 1.0,
                   urlTemplate: urlTemplate,
                   tileProvider: state.currentStore != ''

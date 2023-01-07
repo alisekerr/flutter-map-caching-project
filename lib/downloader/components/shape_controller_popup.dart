@@ -52,11 +52,8 @@ class ShapeControllerPopup extends StatelessWidget {
                     state.regionMode == mode ? const Icon(Icons.done) : null,
                 onTap: i != regionShapes.length - 1
                     ? () {
-                        /* DÜZENLENDİ */
-                        print(mode);
-                        print("----------");
                         context.read<MapBloc>().add(RegionModeSet(mode));
-                        print(state.regionMode.toString());
+
                         Navigator.of(context).pop();
                       }
                     : null,

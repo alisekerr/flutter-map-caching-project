@@ -20,7 +20,6 @@ class MapBloc extends Bloc<MapEvent, MapState> {
             selectedStore: null,
             baseRegion: null,
             regionTiles: 0,
-            downloadProggres: null,
             regionMode: RegionMode.circle,
             minZoom: 1,
             maxZoom: 16,
@@ -32,12 +31,14 @@ class MapBloc extends Bloc<MapEvent, MapState> {
     on<RegionTilesSet>(_onRegionTilesSet);
     on<MinZoomSet>(_onMinZoomSet);
     on<MaxZoomSet>(_onMaxZoomSet);
-    on<DownloadProggresSet>(_onDownloadProggresSet);
+
     on<PreventRedownloadSet>(_onPreventRedownloadSet);
     on<SeaTileRemovalSet>(_onSeaTileRemovalSet);
     on<DisableRecoverySet>(_onDisableRecoverySet);
     on<ShowLocation>(_onShowLocation);
   }
+
+  Stream<DownloadProgress>? downloadProgress;
 
   final StreamController<void> _manualPolygonRecalcTrigger =
       StreamController.broadcast();
@@ -107,17 +108,6 @@ class MapBloc extends Bloc<MapEvent, MapState> {
     emit(
       state.copyWith(
         maxZoom: event.maxZoom,
-      ),
-    );
-  }
-
-  void _onDownloadProggresSet(
-    DownloadProggresSet event,
-    Emitter<MapState> emit,
-  ) {
-    emit(
-      state.copyWith(
-        downloadProggres: event.downloadProgress,
       ),
     );
   }

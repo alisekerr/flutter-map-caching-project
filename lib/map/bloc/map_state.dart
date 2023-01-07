@@ -10,7 +10,6 @@ class MapState extends Equatable {
     required this.regionTiles,
     required this.minZoom,
     required this.maxZoom,
-    required this.downloadProggres,
     this.preventRedownload = false,
     this.seaTileRemoval = true,
     this.disableRecovery = false,
@@ -24,7 +23,7 @@ class MapState extends Equatable {
   final int? regionTiles;
   final int minZoom;
   final int maxZoom;
-  final Stream<DownloadProgress>? downloadProggres;
+
   final bool preventRedownload;
   final bool seaTileRemoval;
   final bool disableRecovery;
@@ -39,7 +38,6 @@ class MapState extends Equatable {
         regionTiles,
         minZoom,
         maxZoom,
-        downloadProggres,
         preventRedownload,
         seaTileRemoval,
         disableRecovery,
@@ -54,7 +52,6 @@ class MapState extends Equatable {
     int? regionTiles,
     int? minZoom,
     int? maxZoom,
-    Stream<DownloadProgress>? downloadProggres,
     bool preventRedownload = false,
     bool seaTileRemoval = true,
     bool disableRecovery = false,
@@ -68,7 +65,6 @@ class MapState extends Equatable {
       regionTiles: regionTiles ?? this.regionTiles,
       minZoom: minZoom ?? this.minZoom,
       maxZoom: maxZoom ?? this.maxZoom,
-      downloadProggres: downloadProggres ?? this.downloadProggres,
       preventRedownload: preventRedownload,
       seaTileRemoval: seaTileRemoval,
       disableRecovery: disableRecovery,

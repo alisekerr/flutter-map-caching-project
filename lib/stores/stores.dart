@@ -55,8 +55,6 @@ class _StoresPageState extends State<StoresPage> {
                           : ListView.builder(
                               itemCount: snapshot.data!.length,
                               itemBuilder: (context, index) {
-                                print(snapshot.data![index].stats.storeSize
-                                    .toString());
                                 return StoreTile(
                                   context: context,
                                   storeName: snapshot.data![index].storeName,

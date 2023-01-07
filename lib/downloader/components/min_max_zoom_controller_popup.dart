@@ -47,7 +47,6 @@ class MinMaxZoomControllerPopup extends StatelessWidget {
                 onChanged: (input) {
                   if (input.isNotEmpty) {
                     context.read<MapBloc>().add(MinZoomSet(int.parse(input)));
-                    print(state.minZoom);
                   }
                 },
                 keyboardType: TextInputType.number,

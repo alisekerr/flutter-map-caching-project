@@ -21,38 +21,37 @@ class _StoreSelectorState extends State<StoreSelector> {
             builder: (context, state) => BlocBuilder<GeneralBloc, GeneralState>(
               builder: (context, generalState) {
                 return FutureBuilder<List<StoreDirectory>>(
-                    future:
-                        FMTC.instance.rootDirectory.stats.storesAvailableAsync,
-                    builder: (context, snapshot) {
-                      return DropdownButton<StoreDirectory>(
-                        items: snapshot.data
-                            ?.map(
-                              (e) => DropdownMenuItem<StoreDirectory>(
-                                value: e,
-                                child: Text(e.storeName),
-                              ),
-                            )
-                            .toList(),
-                        onChanged: (store) => context
-                            .read<MapBloc>()
-                            .add(StoreDirectorySet(store)),
-                        value: state.selectedStore?.storeName == ''
-                            ? null
-                            : state.selectedStore ??
-                                (generalState.currentStore == ''
-                                    ? null
-                                    : FMTC
-                                        .instance(generalState.currentStore!)),
-                        isExpanded: true,
-                        hint: Text(
-                          snapshot.data == null
-                              ? 'Loading...'
-                              : snapshot.data!.isEmpty
-                                  ? 'None Available'
-                                  : 'None Selected',
-                        ),
-                      );
-                    });
+                  future:
+                      FMTC.instance.rootDirectory.stats.storesAvailableAsync,
+                  builder: (context, snapshot) {
+                    return DropdownButton<StoreDirectory>(
+                      items: snapshot.data
+                          ?.map(
+                            (e) => DropdownMenuItem<StoreDirectory>(
+                              value: e,
+                              child: Text(e.storeName),
+                            ),
+                          )
+                          .toList(),
+                      onChanged: (store) =>
+                          context.read<MapBloc>().add(StoreDirectorySet(store)),
+                      value: state.selectedStore?.storeName == ''
+                          ? null
+                          : state.selectedStore ??
+                              (generalState.currentStore == ''
+                                  ? null
+                                  : FMTC.instance(generalState.currentStore!)),
+                      isExpanded: true,
+                      hint: Text(
+                        snapshot.data == null
+                            ? 'Loading...'
+                            : snapshot.data!.isEmpty
+                                ? 'None Available'
+                                : 'None Selected',
+                      ),
+                    );
+                  },
+                );
               },
             ),
           ),

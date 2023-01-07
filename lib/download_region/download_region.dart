@@ -101,63 +101,50 @@ class _DownloadRegionPopupState extends State<DownloadRegionPopup> {
                                             .selectedStore!.metadata.readAsync;
 
                                         if (mounted) {
-                                          context.read<MapBloc>().add(
-                                                DownloadProggresSet(
-                                                  downloadState
-                                                      .selectedStore!.download
-                                                      .startForeground(
-                                                        region: widget.region
-                                                            .toDownloadable(
-                                                          downloadState.minZoom,
-                                                          downloadState.maxZoom,
-                                                          TileLayer(
-                                                            urlTemplate:
-                                                                metadata[
-                                                                    'sourceURL'],
-                                                          ),
-                                                          preventRedownload:
-                                                              downloadState
-                                                                  .preventRedownload,
-                                                          seaTileRemoval:
-                                                              downloadState
-                                                                  .seaTileRemoval,
-                                                          parallelThreads:
-                                                              (await SharedPreferences
-                                                                              .getInstance())
-                                                                          .getBool(
-                                                                        'bypassDownloadThreadsLimitation',
-                                                                      ) ??
-                                                                      false
-                                                                  ? 10
-                                                                  : 2,
-                                                        ),
-                                                        disableRecovery:
-                                                            downloadState
-                                                                .disableRecovery,
-                                                      )
-                                                      .asBroadcastStream(),
-                                                ),
-                                              );
-                                        }
-
-                                        print(
-                                          downloadState.downloadProggres
-                                              .toString(),
-                                        );
-
-                                        if (mounted) {
-                                          if (downloadState.downloadProggres !=
-                                              null) {
-                                            await Navigator.of(context).push(
-                                              MaterialPageRoute<String>(
-                                                builder: (
-                                                  BuildContext context,
-                                                ) =>
-                                                    const DownloadingPage(),
-                                                fullscreenDialog: true,
-                                              ),
-                                            );
-                                          }
+                                          context
+                                                  .read<MapBloc>()
+                                                  .downloadProgress =
+                                              downloadState
+                                                  .selectedStore!.download
+                                                  .startForeground(
+                                                    region: widget.region
+                                                        .toDownloadable(
+                                                      downloadState.minZoom,
+                                                      downloadState.maxZoom,
+                                                      TileLayer(
+                                                        urlTemplate: metadata[
+                                                            'sourceURL'],
+                                                      ),
+                                                      preventRedownload:
+                                                          downloadState
+                                                              .preventRedownload,
+                                                      seaTileRemoval:
+                                                          downloadState
+                                                              .seaTileRemoval,
+                                                      parallelThreads:
+                                                          (await SharedPreferences
+                                                                          .getInstance())
+                                                                      .getBool(
+                                                                    'bypassDownloadThreadsLimitation',
+                                                                  ) ??
+                                                                  false
+                                                              ? 10
+                                                              : 2,
+                                                    ),
+                                                    disableRecovery:
+                                                        downloadState
+                                                            .disableRecovery,
+                                                  )
+                                                  .asBroadcastStream();
+                                          await Navigator.of(context).push(
+                                            MaterialPageRoute<String>(
+                                              builder: (
+                                                BuildContext context,
+                                              ) =>
+                                                  const DownloadingPage(),
+                                              fullscreenDialog: true,
+                                            ),
+                                          );
                                         }
                                       },
                                 child: const Text('Foreground'),
@@ -198,9 +185,11 @@ class _DownloadRegionPopupState extends State<DownloadRegionPopup> {
                                           ),
                                           disableRecovery:
                                               downloadState.disableRecovery,
+                                          progressNotificationIcon:
+                                              '@mipmap/ic_launcher',
                                           backgroundNotificationIcon:
                                               const AndroidResource(
-                                            name: 'ic_notification_icon',
+                                            name: 'ic_launcher',
                                             defType: 'mipmap',
                                           ),
                                         );

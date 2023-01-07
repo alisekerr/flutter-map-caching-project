@@ -43,12 +43,6 @@ class MaxZoomSet extends MapEvent {
   final int maxZoom;
 }
 
-class DownloadProggresSet extends MapEvent {
-  const DownloadProggresSet(this.downloadProgress);
-
-  final Stream<DownloadProgress>? downloadProgress;
-}
-
 class PreventRedownloadSet extends MapEvent {
   const PreventRedownloadSet(this.preventRedownload);
 

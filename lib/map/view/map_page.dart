@@ -70,12 +70,13 @@ class _MapViewState extends State<_MapView> {
                         child: Center(
                           child: ElevatedButton(
                             onPressed: () {
-                              Navigator.of(context)
-                                  .push(MaterialPageRoute<String>(
-                                builder: (BuildContext context) =>
-                                    const DownloaderPage(),
-                                fullscreenDialog: true,
-                              ));
+                              Navigator.of(context).push(
+                                MaterialPageRoute<String>(
+                                  builder: (BuildContext context) =>
+                                      const DownloaderPage(),
+                                  fullscreenDialog: true,
+                                ),
+                              );
                             },
                             child: const Text('Caching Map and Downloading'),
                           ),

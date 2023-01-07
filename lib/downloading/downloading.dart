@@ -30,14 +30,16 @@ class _DownloadingPageState extends State<DownloadingPage> {
                     child: BlocBuilder<MapBloc, MapState>(
                       builder: (context, state) =>
                           StreamBuilder<DownloadProgress>(
-                        stream: state.downloadProggres,
+                        stream: context.read<MapBloc>().downloadProgress,
                         initialData: DownloadProgress.empty(),
                         builder: (context, snapshot) {
                           if (snapshot.connectionState ==
                               ConnectionState.done) {
-                            context
-                                .read<MapBloc>()
-                                .add(const DownloadProggresSet(null));
+                            context.read<MapBloc>().downloadProgress = null;
+
+                            WidgetsBinding.instance.addPostFrameCallback(
+                              (_) => Navigator.of(context).pop(),
+                            );
                           }
 
                           return LayoutBuilder(
