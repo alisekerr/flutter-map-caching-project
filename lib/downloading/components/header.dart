@@ -51,6 +51,9 @@ class _HeaderState extends State<Header> {
                           .download
                           .cancel();
                       setState(() => cancelled = true);
+                      if (mounted) {
+                        Navigator.of(context).pop();
+                      }
                     },
             ),
           ],

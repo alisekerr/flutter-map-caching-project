@@ -5,9 +5,9 @@ import 'package:flutter_maps/vars/size_formatter.dart';
 
 class VerticalLayout extends StatelessWidget {
   const VerticalLayout({
-    Key? key,
+    super.key,
     required this.data,
-  }) : super(key: key);
+  });
 
   final DownloadProgress data;
 

@@ -46,7 +46,7 @@ class _DownloaderPageState extends State<DownloaderPage> {
                       MaterialPageRoute<String>(
                         builder: (BuildContext context) =>
                             DownloadRegionPopup(region: state.baseRegion!),
-                        fullscreenDialog: true,
+                        //fullscreenDialog: true,
                       ),
                     ),
             icon: const Icon(Icons.arrow_forward),

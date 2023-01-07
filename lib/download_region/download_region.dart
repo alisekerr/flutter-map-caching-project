@@ -55,60 +55,52 @@ class _DownloadRegionPopupState extends State<DownloadRegionPopup> {
   }
 
   @override
-  Widget build(BuildContext context) => BlocProvider.value(
-        value: context.read<MapBloc>(),
-        child: Scaffold(
-          appBar: AppBar(
-            title: const Text('Download Region'),
-          ),
-          body: Scrollbar(
-            child: SingleChildScrollView(
-              child: Padding(
-                padding: const EdgeInsets.all(12),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    RegionInformation(
-                      widget: widget,
-                      circleRegion: circleRegion,
-                      rectangleRegion: rectangleRegion,
-                    ),
-                    const SectionSeparator(),
-                    const StoreSelector(),
-                    const SectionSeparator(),
-                    const OptionalFunctionality(),
-                    const SectionSeparator(),
-                    const BackgroundDownloadBatteryOptimizationsInfo(),
-                    const SectionSeparator(),
-                    const UsageWarning(),
-                    const SectionSeparator(),
-                    const Text('START DOWNLOAD IN'),
-                    BlocBuilder<MapBloc, MapState>(
-                      builder: (context, downloadState) =>
-                          BlocBuilder<GeneralBloc, GeneralState>(
-                        builder: (context, state) {
-                          return Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: [
-                              Expanded(
-                                child: ElevatedButton(
-                                  onPressed: downloadState.selectedStore ==
-                                              null ||
-                                          downloadState
-                                                  .selectedStore?.storeName ==
-                                              ''
-                                      ? null
-                                      : () async {
-                                          final metadata = await downloadState
-                                              .selectedStore!
-                                              .metadata
-                                              .readAsync;
-                                          print(downloadState
-                                              .selectedStore?.storeName);
-                                          print(metadata.toString());
-                                          print("--------");
-                                          print(downloadState.selectedStore
-                                              .toString());
+  Widget build(BuildContext context) => Scaffold(
+        appBar: AppBar(
+          title: const Text('Download Region'),
+        ),
+        body: Scrollbar(
+          child: SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.all(12),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  RegionInformation(
+                    widget: widget,
+                    circleRegion: circleRegion,
+                    rectangleRegion: rectangleRegion,
+                  ),
+                  const SectionSeparator(),
+                  const StoreSelector(),
+                  const SectionSeparator(),
+                  const OptionalFunctionality(),
+                  const SectionSeparator(),
+                  const BackgroundDownloadBatteryOptimizationsInfo(),
+                  const SectionSeparator(),
+                  const UsageWarning(),
+                  const SectionSeparator(),
+                  const Text('START DOWNLOAD IN'),
+                  BlocBuilder<MapBloc, MapState>(
+                    builder: (context, downloadState) =>
+                        BlocBuilder<GeneralBloc, GeneralState>(
+                      builder: (context, state) {
+                        return Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            Expanded(
+                              child: ElevatedButton(
+                                onPressed: downloadState.selectedStore ==
+                                            null ||
+                                        downloadState
+                                                .selectedStore?.storeName ==
+                                            ''
+                                    ? null
+                                    : () async {
+                                        final metadata = await downloadState
+                                            .selectedStore!.metadata.readAsync;
+
+                                        if (mounted) {
                                           context.read<MapBloc>().add(
                                                 DownloadProggresSet(
                                                   downloadState
@@ -146,90 +138,86 @@ class _DownloadRegionPopupState extends State<DownloadRegionPopup> {
                                                       .asBroadcastStream(),
                                                 ),
                                               );
+                                        }
 
-                                          print(downloadState
-                                              .downloadProggres?.first
-                                              .toString());
+                                        print(
+                                          downloadState.downloadProggres
+                                              .toString(),
+                                        );
 
-                                          if (mounted) {
-                                            Navigator.of(context).pop();
-                                            if (downloadState
-                                                    .downloadProggres !=
-                                                null) {
-                                              await Navigator.of(context).push(
-                                                MaterialPageRoute<String>(
-                                                  builder: (
-                                                    BuildContext context,
-                                                  ) =>
-                                                      const DownloadingPage(),
-                                                  fullscreenDialog: true,
-                                                ),
-                                              );
-                                            }
-                                          }
-                                        },
-                                  child: const Text('Foreground'),
-                                ),
-                              ),
-                              const SizedBox(width: 10),
-                              Expanded(
-                                child: OutlinedButton(
-                                  onPressed: downloadState.selectedStore == null
-                                      ? null
-                                      : () async {
-                                          final metadata = await downloadState
-                                              .selectedStore!
-                                              .metadata
-                                              .readAsync;
-
-                                          await downloadState
-                                              .selectedStore!.download
-                                              .startBackground(
-                                            region:
-                                                widget.region.toDownloadable(
-                                              downloadState.minZoom,
-                                              downloadState.maxZoom,
-                                              TileLayer(
-                                                urlTemplate:
-                                                    metadata['sourceURL'],
+                                        if (mounted) {
+                                          if (downloadState.downloadProggres !=
+                                              null) {
+                                            await Navigator.of(context).push(
+                                              MaterialPageRoute<String>(
+                                                builder: (
+                                                  BuildContext context,
+                                                ) =>
+                                                    const DownloadingPage(),
+                                                fullscreenDialog: true,
                                               ),
-                                              preventRedownload: downloadState
-                                                  .preventRedownload,
-                                              seaTileRemoval:
-                                                  downloadState.seaTileRemoval,
-                                              parallelThreads:
-                                                  (await SharedPreferences
-                                                                  .getInstance())
-                                                              .getBool(
-                                                            'bypassDownloadThreadsLimitation',
-                                                          ) ??
-                                                          false
-                                                      ? 10
-                                                      : 2,
-                                            ),
-                                            disableRecovery:
-                                                downloadState.disableRecovery,
-                                            backgroundNotificationIcon:
-                                                const AndroidResource(
-                                              name: 'ic_notification_icon',
-                                              defType: 'mipmap',
-                                            ),
-                                          );
-
-                                          if (mounted) {
-                                            Navigator.of(context).pop();
+                                            );
                                           }
-                                        },
-                                  child: const Text('Background'),
-                                ),
+                                        }
+                                      },
+                                child: const Text('Foreground'),
                               ),
-                            ],
-                          );
-                        },
-                      ),
+                            ),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              child: OutlinedButton(
+                                onPressed: downloadState.selectedStore == null
+                                    ? null
+                                    : () async {
+                                        final metadata = await downloadState
+                                            .selectedStore!.metadata.readAsync;
+
+                                        await downloadState
+                                            .selectedStore!.download
+                                            .startBackground(
+                                          region: widget.region.toDownloadable(
+                                            downloadState.minZoom,
+                                            downloadState.maxZoom,
+                                            TileLayer(
+                                              urlTemplate:
+                                                  metadata['sourceURL'],
+                                            ),
+                                            preventRedownload:
+                                                downloadState.preventRedownload,
+                                            seaTileRemoval:
+                                                downloadState.seaTileRemoval,
+                                            parallelThreads:
+                                                (await SharedPreferences
+                                                                .getInstance())
+                                                            .getBool(
+                                                          'bypassDownloadThreadsLimitation',
+                                                        ) ??
+                                                        false
+                                                    ? 10
+                                                    : 2,
+                                          ),
+                                          disableRecovery:
+                                              downloadState.disableRecovery,
+                                          backgroundNotificationIcon:
+                                              const AndroidResource(
+                                            name: 'ic_notification_icon',
+                                            defType: 'mipmap',
+                                          ),
+                                        );
+
+                                        if (mounted) {
+                                          Navigator.of(context).pop();
+                                        }
+                                      },
+                                child: const Text('Background'),
+                              ),
+                            ),
+                          ],
+                        );
+                      },
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
           ),

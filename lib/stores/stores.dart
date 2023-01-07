@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_map_tile_caching/flutter_map_tile_caching.dart';
-import 'package:flutter_maps/map_caching/bloc/general_bloc.dart';
 import 'package:flutter_maps/store_editor/store_editor.dart';
 import 'package:flutter_maps/stores/components/empty_indicator.dart';
 import 'package:flutter_maps/stores/components/header.dart';
@@ -56,13 +54,17 @@ class _StoresPageState extends State<StoresPage> {
                           ? const EmptyIndicator()
                           : ListView.builder(
                               itemCount: snapshot.data!.length,
-                              itemBuilder: (context, index) => StoreTile(
-                                context: context,
-                                storeName: snapshot.data![index].storeName,
-                                key: ValueKey(
-                                  snapshot.data![index].storeName,
-                                ),
-                              ),
+                              itemBuilder: (context, index) {
+                                print(snapshot.data![index].stats.storeSize
+                                    .toString());
+                                return StoreTile(
+                                  context: context,
+                                  storeName: snapshot.data![index].storeName,
+                                  key: ValueKey(
+                                    snapshot.data![index].storeName,
+                                  ),
+                                );
+                              },
                             )
                       : const LoadingIndicator(
                           message: 'Loading Stores...',

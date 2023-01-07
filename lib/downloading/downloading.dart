@@ -35,11 +35,9 @@ class _DownloadingPageState extends State<DownloadingPage> {
                         builder: (context, snapshot) {
                           if (snapshot.connectionState ==
                               ConnectionState.done) {
-                            WidgetsBinding.instance.addPostFrameCallback(
-                              (_) => context
-                                  .read<MapBloc>()
-                                  .add(const DownloadProggresSet(null)),
-                            );
+                            context
+                                .read<MapBloc>()
+                                .add(const DownloadProggresSet(null));
                           }
 
                           return LayoutBuilder(
