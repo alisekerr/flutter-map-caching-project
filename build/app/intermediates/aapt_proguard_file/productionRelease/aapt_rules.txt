@@ -1,8 +1,0 @@
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver { <init>(); }
--keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver { <init>(); }
--keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver { <init>(); }
--keep class com.example.verygoodcore.flutter_maps.MainActivity { <init>(); }
--keep class de.julianassmann.flutter_background.IsolateHolderService { <init>(); }
--keep class dev.fluttercommunity.plus.share.ShareFileProvider { <init>(); }
--keep class dev.fluttercommunity.plus.share.SharePlusPendingIntent { <init>(); }
