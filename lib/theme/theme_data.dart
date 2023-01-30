@@ -18,8 +18,8 @@ class AppTheme {
         ),
         headline5: TextStyle(
           color: AppColors.white,
-          fontWeight: FontWeight.normal,
-          fontStyle: FontStyle.italic,
+          fontWeight: FontWeight.w300,
+          fontStyle: FontStyle.normal,
           fontSize: 16,
         ),
         headline6: TextStyle(

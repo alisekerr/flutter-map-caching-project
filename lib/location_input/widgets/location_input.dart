@@ -50,35 +50,41 @@ class LocationInput extends StatelessWidget {
       child: TextField(
         controller: textEditingController,
         focusNode: focusNode,
-        style: Theme.of(context).textTheme.headline4,
+        style: Theme.of(context).textTheme.headline4!.copyWith(
+              color: AppColors.black,
+            ),
         decoration: InputDecoration(
           filled: true,
-          fillColor: AppColors().darkColor,
+          fillColor: Colors.white,
           contentPadding: const EdgeInsets.all(15),
           prefixIcon: const IconButton(
             icon: Icon(
               Icons.location_on,
-              color: AppColors.white,
+              color: AppColors.black,
             ),
             onPressed: null,
           ),
           suffixIcon: IconButton(
             icon: const Icon(
               Icons.clear,
-              color: AppColors.white,
+              color: AppColors.black,
             ),
             onPressed: () {
               textEditingController.clear();
             },
           ),
           hintText: l10n.findLocation,
-          hintStyle: Theme.of(context).textTheme.headline5,
+          hintStyle: Theme.of(context).textTheme.headline5!.copyWith(
+                color: AppColors.black,
+              ),
           focusedBorder: OutlineInputBorder(
+            borderSide: BorderSide.none,
             borderRadius: BorderRadius.circular(
               _inputBorderRadius,
             ),
           ),
           enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide.none,
             borderRadius: BorderRadius.circular(
               _inputBorderRadius,
             ),
@@ -129,13 +135,23 @@ class LocationInput extends StatelessWidget {
                             minVerticalPadding: 0,
                             title: Text(
                               option.name,
-                              style: Theme.of(context).textTheme.headline3,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline3!
+                                  .copyWith(
+                                    color: AppColors.black,
+                                  ),
                             ),
                             subtitle: Text(
                               option.label,
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
-                              style: Theme.of(context).textTheme.headline6,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline6!
+                                  .copyWith(
+                                    color: AppColors.black,
+                                  ),
                             ),
                           ),
                         ),

@@ -5,10 +5,10 @@ import 'package:flutter/services.dart';
 import 'package:flutter_map_tile_caching/flutter_map_tile_caching.dart';
 import 'package:flutter_maps/app/app.dart';
 import 'package:flutter_maps/bootstrap.dart';
+import 'package:flutter_maps/caching_helper/caching_helper.dart';
 import 'package:location_api_client/location_api_client.dart';
 import 'package:locations_repository/locations_repository.dart';
 import 'package:path/path.dart' as p;
-import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,44 +22,9 @@ void main() async {
       statusBarIconBrightness: Brightness.dark,
     ),
   );
-  final prefs = await SharedPreferences.getInstance();
+  final cachingHelper = CachingHelper();
 
-  FlutterMapTileCaching.initialise(await RootDirectory.normalCache);
-  await FMTC.instance.rootDirectory.migrator.fromV4();
-
-  if (prefs.getBool('reset') ?? false) {
-    await FMTC.instance.rootDirectory.manage.resetAsync();
-
-    final instanceA = FMTC.instance('OpenStreetMap (A)');
-    await instanceA.manage.createAsync();
-    await instanceA.metadata.addAsync(
-      key: 'sourceURL',
-      value: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-    );
-    await instanceA.metadata.addAsync(
-      key: 'validDuration',
-      value: '14',
-    );
-    await instanceA.metadata.addAsync(
-      key: 'behaviour',
-      value: 'cacheFirst',
-    );
-
-    final instanceB = FMTC.instance('OpenStreetMap (B)');
-    await instanceB.manage.createAsync();
-    await instanceB.metadata.addAsync(
-      key: 'sourceURL',
-      value: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-    );
-    await instanceB.metadata.addAsync(
-      key: 'validDuration',
-      value: '14',
-    );
-    await instanceB.metadata.addAsync(
-      key: 'behaviour',
-      value: 'cacheFirst',
-    );
-  }
+  await cachingHelper.mainInital();
 
   final newAppVersionFile = File(
     p.join(
