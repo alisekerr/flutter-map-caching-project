@@ -24,4 +24,4 @@ App supports very good standards of writing code. Project is divided into 3 laye
 - Domain Layer (Locations Repository)
 - Presentations Layer (widgets + BLoC)
 
-Tutorial on YouTube - [link](https://www.youtube.com/watch?v=GGy6D_aeQ2g)
+
