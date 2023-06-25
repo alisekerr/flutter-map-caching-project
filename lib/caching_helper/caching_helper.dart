@@ -45,24 +45,6 @@ class CachingHelper {
     }
   }
 
-  /*void loadStatistics({
-    required bool withoutCachedStatistics,
-    required Future<String>? tiles,
-    required Future<String>? size,
-    required Future<String>? cacheHits,
-    required Future<String>? cacheMisses,
-    required Future<Image?>? image,
-    required StoreDirectory store,
-  }) {
-    final stats = !withoutCachedStatistics ? store.stats : store.stats.noCache;
-
-    tiles = stats.storeLengthAsync.then((l) => l.toString());
-    size = stats.storeSizeAsync.then((s) => (s * 1024).asReadableSize);
-    cacheHits = stats.cacheHitsAsync.then((h) => h.toString());
-    cacheMisses = stats.cacheMissesAsync.then((m) => m.toString());
-    image = store.manage.tileImageAsync(randomRange: 20, size: 125);
-  }*/
-
   List<FutureBuilder<String>> stats({
     required Future<String>? tiles,
     required Future<String>? size,

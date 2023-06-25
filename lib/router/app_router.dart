@@ -7,11 +7,9 @@ import 'package:flutter_maps/map_caching/store_editor/store_editor.dart';
 import 'package:flutter_maps/map_caching/stores/stores.dart';
 import 'package:go_router/go_router.dart';
 
-import '../deneme.dart';
-
 enum AppRoute {
   main,
-  //homeMap,
+  homeMap,
   storesPage,
   storeEditorPopup,
   downloaderPage,
@@ -24,15 +22,10 @@ final goRouter = GoRouter(
   debugLogDiagnostics: true,
   routes: <RouteBase>[
     GoRoute(
-      path: '/',
-      name: AppRoute.main.name,
-      builder: (context, state) => const MapPage(),
-    ),
-    /* GoRoute(
       path: '/homeMap',
       name: AppRoute.homeMap.name,
       builder: (context, state) => const MapPage(),
-    ),*/
+    ),
     GoRoute(
       path: '/storesPage',
       name: AppRoute.storesPage.name,

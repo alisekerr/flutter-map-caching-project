@@ -36,7 +36,6 @@ class _MapViewState extends State<_MapView> {
                   latitude: state.latitude,
                   longitude: state.longitude,
                 ),
-                const StoreAndCachingWidget(),
               ],
             ),
             floatingActionButton: LocationInput(

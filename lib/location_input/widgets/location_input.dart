@@ -50,7 +50,7 @@ class LocationInput extends StatelessWidget {
       child: TextField(
         controller: textEditingController,
         focusNode: focusNode,
-        style: Theme.of(context).textTheme.headline4!.copyWith(
+        style: Theme.of(context).textTheme.headlineMedium!.copyWith(
               color: AppColors.black,
             ),
         decoration: InputDecoration(

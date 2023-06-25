@@ -6,28 +6,29 @@ class AppTheme {
     return ThemeData(
       primaryColor: AppColors.white,
       textTheme: const TextTheme(
-        headline3: TextStyle(
+        displaySmall: TextStyle(
           color: AppColors.black,
           fontWeight: FontWeight.bold,
           fontSize: 16,
         ),
-        headline4: TextStyle(
+        headlineMedium: TextStyle(
           color: AppColors.white,
           fontWeight: FontWeight.w600,
           fontSize: 16,
         ),
-        headline5: TextStyle(
+        headlineSmall: TextStyle(
           color: AppColors.white,
           fontWeight: FontWeight.w300,
           fontStyle: FontStyle.normal,
           fontSize: 16,
         ),
-        headline6: TextStyle(
+        titleLarge: TextStyle(
           color: AppColors.black,
           fontWeight: FontWeight.normal,
           fontSize: 14,
         ),
       ),
+      colorScheme: const ColorScheme.light(),
     );
   }
 }
